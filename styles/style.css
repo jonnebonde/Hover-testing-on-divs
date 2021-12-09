@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: blue;
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    padding: 20px;
+}
+
+.box{
+    background-color: white;
+    height: 300px;
+    padding: 25px;
+    border: blue solid 3px;
+    flex: 1;
+    transition: 1s;
+}
+
+.box:hover{
+    flex: 4;
+    background-color: chartreuse;    
+}
